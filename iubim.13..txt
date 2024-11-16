@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.13 Iubim...</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .small-number {
+            font-size: 1.6em;
+            color: #a06735;
+            flex-shrink: 0;
+            position: absolute;
+            left: 0;
+            margin-right: 20px; /* Distanță între numărul mic și titlu */
+        }
+        .poem-title {
+            font-size: 2.5em;
+            color: #a06735;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em;
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #a06735;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover {
+            color: white;
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.13</span>
+        <h2 class="poem-title">Iubim...</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Poezia -->
+    <div class="stanza">
+        <p>În general, iubim...</p>
+        <p>Iubim ca să zâmbim,</p>
+        <p>Iubim să facem oameni fericiți,</p>
+        <p>Iubim să fim iubiți.</p>
+        <p>Și asta căutam de când ne știm</p>
+        <p>Conștient sau nu</p>
+        <p>Căutăm iubire cât mai repede sau chiar acum</p>
+        <p>Căutăm iubire fără obligații</p>
+        <p>Fără prejudecăți sau alte complicații.</p>
+        <p>Iubim cu egoism mereu</p>
+        <p>Doar ce ne face bine, când ne e tare greu.</p>
+        <p>De ploia-ar fi iubire, sunt sigur ca și scop</p>
+        <p>Al oamenilor ar fi să prindă și ei un strop</p>
+        <p>Să-l ia, să-l bage-n piept, s-ajungă pană-n suflet</p>
+        <p>Să scrie frenetic pe el... momente de poet</p>
+        <p>Iar apoi să-l lase, ca unul într-o droaie</p>
+        <p>Ieșind din nou cu fața, izbindu-se de ploaie..</p>
+
+        <p>Asta știm...</p>
+        <p>Știm ca vrem iubire, vrem ca să iubim...</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp10.04.'22</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>

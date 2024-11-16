@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.6 Omul din tren...</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .small-number {
+            font-size: 1.6em;
+            color: #a06735;
+            flex-shrink: 0;
+            position: absolute;
+            left: 0;
+            margin-right: 20px; /* Distanță între numărul mic și titlu */
+        }
+        .poem-title {
+            font-size: 2.5em;
+            color: #a06735;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em; 
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block; 
+            margin-top: 20px;
+            text-decoration: none; 
+            color: #a06735; 
+            font-weight: bold;
+            padding: 10px; 
+            border-radius: 5px; 
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover { 
+            color: white; 
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.6</span>
+        <h2 class="poem-title">Omul din tren...</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Strofa 1 -->
+    <div class="stanza"> 
+        <p>Scriu asta în tren, CFR...</p>
+        <p>Și deloc surprinzător,</p>
+        <p>Nu merge prea repede,</p>
+        <p>Dar nu-s un nou călător.</p>
+   
+        <p>Îți dă timp să savurezi liniștea și o carte bună,</p>
+        <p>Asta fac destul de des, de trei ori pe săptămână.</p>
+    
+        <p>Dintr-o data în vagon, un bărbat foarte elegant,</p>
+        <p>Se așează vizavi, părea perplex, deprimat...</p>
+    
+        <p>Eu nu am băgat de seama, continuând să citesc și să mai scriu,</p>
+        <p>Pe la mijlocul voiajului simt de cămașă tras să fiu...</p>
+    
+        <p>Mă întreabă „Ce citești?”, eu vorbind liniștitor:</p>
+        <p>-„Arta fericirii!”, e despre un bătrân călător,</p>
+        <p>-Care-și povestește viața și ce-l face fericit.</p>
+    
+        <p>El ușor consternat mă întreabă: ”Oare cum a reușit?”</p>
+        <p>Când i-am observat mirarea, mai întâi m-am prezentat,</p>
+        <p>Am luat frâiele discuției și ușor am continuat:</p>
+    </div>
+
+    <!-- Strofa 7 -->
+    <div class="stanza">
+        <p>Sunt fericit în adevăratul sens al cuvântului!</p>
+        <p>Sunt sigur că și tu, însă mă contrazici..</p>
+        <p>Dar când te-ai bucurat ultima dată că simți bătaia vântului?</p>
+        <p>Ultima dată când ai ales să spargi barierele multor frici?</p>
+    
+        <p>Probabil nu încă, sau poate de demult...</p>
+        <p>Știu,știu... ți se par banale</p>
+        <p>Dar stai să o iau de la început...</p>
+    </div>
+
+    <!-- Strofa 9 -->
+    <div class="stanza">
+        <p>Sunt fericit...</p>
+        <p>Cum adică cum reușesc?</p>
+        <p>Cum adică lumea aceasta e prea urâtă, dar totuși eu zâmbesc?</p>
+    
+        <p>Ok... ok... dar...</p>
+        <p>Cum arată fericirea pentru tine?</p>
+        <p>Foarte mulți bani și trei mașini? sau patru, parcă sunt prea puține.</p>
+   
+        <p>Uite, pe mine mă fac fericit lucrurile din jur</p>
+        <p>Mă fac fericit norii care vin, dar pentru tine nu-s de un bun augur,</p>
+        <p>Pe mine mă bucură faptul că vine ploaia</p>
+        <p>O dată cu ea vine și inspirația și o să-mi iau foaia,</p>
+   
+        <p>Să desenez ceva, asta mă face fericit.</p>
+        <p>Sau iau caietul și încep sa compun și să recit.</p>
+   
+        <p>Cum zicea și Lincoln cândva:</p>
+        <p>„Poți să te plângi că tufele de trandafiri au spini,</p>
+        <p>Sau poți sa te bucuri că tufele cu spini au trandafiri.”</p>
+    </div>
+
+    <!-- Strofa 14 -->
+    <div class="stanza">
+        <p>Știi că te pot face fericit și existența lucrurilor nefericite?</p>
+        <p>Doar așa te poți bucura de prezentul pe care-l trăiești,</p>
+        <p>Doar așa poți începe să lucrezi la visurile neîmplinite,</p>
+        <p>Știind că unii și-ar dori să fie ceea ce tu ești.</p>
+   
+        <p>Profită de timpul pe care îl ai aici,</p>
+        <p>Dansează! chiar de ai două picioare stângi.</p>
+        <p>Cântă! chiar dacă nu ai voce și o știi.</p>
+   
+        <p>Iar atunci când te simți răvășit de sentimente, plângi.</p>
+        <p>Ca să poți râde după aceea în nopțile târzii.</p>
+  
+        <p>Iubește faptul că poți iubi.</p>
+        <p>Am ajuns, trebuie să cobor... să nu uiți ce-am discutat,</p>
+        <p>Și abia atunci vei realiza cât de fericit ești de fapt...</p>
+    </div>
+
+    <!-- Strofa 18 -->
+    <div class="stanza">
+        <p>Omul din tren se îndepărtă grăbit, fără să privescă în spate,</p>
+        <p>În urma lui apoi au rămas un plic și-o carte,</p>
+        <p>Bărbatul cel elegant deschide încet plicul,</p>
+        <p>În care era o scrisoare.</p>
+   
+        <p>Pe care scria:</p>
+        <p>„Cartea are multe foi goale... sper să scrii tu în continuare!”</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11.11.'21</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>

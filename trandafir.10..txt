@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.10 Trandafir </title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .small-number {
+            font-size: 1.6em;
+            color: #a06735;
+            flex-shrink: 0;
+            position: absolute;
+            left: 0;
+            margin-right: 20px; /* Distanță între numărul mic și titlu */
+        }
+        .poem-title {
+            font-size: 2.5em;
+            color: #a06735;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em;
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #a06735;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover {
+            color: white;
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.10</span>
+        <h2 class="poem-title">Trandafir</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Strofa 1 -->
+    <div class="stanza">
+        <p>Ai cules un trandafir,</p>
+        <p>Nu-i deloc unul perfect</p>
+        <p>Însă cu un singur zâmbet</p>
+        <p>I-ai ascuns orice defect</p>
+    </div>
+
+    <!-- Strofa 2 -->
+    <div class="stanza">
+        <p>Acest roșu trandafir</p>
+        <p>Te iubește fără seamă.</p>
+        <p>Dar alegi să îl iubești</p>
+        <p>Doar atunci când el te cheamă.</p>
+    </div>
+
+    <!-- Strofa 3 -->
+    <div class="stanza">
+        <p>-Te privesc, tu mă privești</p>
+        <p>Te sărut printre petale</p>
+        <p>Mă gândesc, tu te gândești</p>
+        <p>Să alegi o altă floare</p>
+    </div>
+
+    <!-- Strofa 4 -->
+    <div class="stanza">
+        <p>Doritor fiind din fire</p>
+        <p>De momente întregi cu tine</p>
+        <p>Nu doar de niște fărâme,</p>
+        <p>Doar fărâme de iubire</p>
+    </div>
+
+    <!-- Strofa 5 -->
+    <div class="stanza">
+        <p>A încercat dar fără rost</p>
+        <p>Să fie un trandafir alb</p>
+        <p>Însă atunci când ea venea</p>
+        <p>El pe loc se înroșea.</p>
+    </div>
+
+    <!-- Strofa 6 -->
+    <div class="stanza">
+        <p>El tânjea după iubire</p>
+        <p>Și ea, dar nu după a lui</p>
+        <p>De asta cădeau mereu</p>
+        <p>Petalele trandafirului</p>
+    </div>
+
+    <!-- Strofa 7 -->
+    <div class="stanza">
+        <p>-Atunci când sunt lângă tine</p>
+        <p>Mâine e mult prea departe</p>
+        <p>Hai sa ne iubim de parcă</p>
+        <p>Asta e ultima noapte,</p>
+    </div>
+
+    <!-- Strofa 8 -->
+    <div class="stanza">
+        <p>-Tu iubite trandafir,</p>
+        <p>De ce tot te ofilesti?</p>
+        <p>-Pentru că mă rupi în două</p>
+        <p>Doar atunci când mă privești</p>
+    </div>
+
+    <!-- Strofa 9 -->
+    <div class="stanza">
+        <p>Și cădeau petalele,</p>
+        <p>Căte una, două...</p>
+        <p>Și plecă și ea</p>
+        <p>Și începu să plouă</p>
+    </div>
+
+    <!-- Strofa 10 -->
+    <div class="stanza">
+        <p>Se ofilea ușor.</p>
+        <p>Lumina încet s-a stins</p>
+        <p>Și căzu ultima petală</p>
+        <p>A trandafirului</p>
+        <p>De un roșu prea aprins...</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp02.02.'22</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>

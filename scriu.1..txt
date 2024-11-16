@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.1 Scriu.. .</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .small-number {
+            font-size: 1.6em;
+            color: #a06735;
+            flex-shrink: 0;
+            position: absolute;
+            left: 0;
+        }
+        .poem-title {
+            font-size: 2.5em;
+            color: #a06735;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em; 
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block; 
+            margin-top: 20px;
+            text-decoration: none; 
+            color: #a06735; 
+            font-weight: bold;
+            padding: 10px; 
+            border-radius: 5px; 
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover { 
+            color: white; 
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.1</span>
+        <h2 class="poem-title">Scriu..</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Strofa 1 -->
+    <div class="stanza"> 
+        <p>Scriu... într-o seară de joi</p>
+        <p>Pe un fundal plin de ploi,</p>
+        <p>Cu gândul rătăcit</p>
+        <p>Confuz, zăpăcit...</p>
+    </div>
+
+    <!-- Strofa 2 -->
+    <div class="stanza">
+        <p>Scriu... pe un caiet zdrențuros</p>
+        <p>Ușor prietenos,</p>
+        <p>Ce-s incapabil să rostesc</p>
+        <p>Ce simt, ce gândesc...</p>
+    </div>
+
+    <!-- Strofa 3 -->
+    <div class="stanza">
+        <p>Scriu... și despre viitor,</p>
+        <p>În vise-s călător...</p>
+        <p>Și iarăși n-am bilet,</p>
+        <p>Dar știu că-s dependent</p>
+        <p>De trenul meu încet...</p>
+    </div>
+
+    <!-- Strofa 4 -->
+    <div class="stanza">
+        <p>Și-n toată gălăgia</p>
+        <p>Un singur lucru știu,</p>
+        <p>Că vreau să-mi iau caietul</p>
+        <p>Să-ncep din nou să scriu...</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30.07.'21</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>

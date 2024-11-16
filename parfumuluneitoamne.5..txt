@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.5 Parfumul unei toamne... </title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrează titlul și numărul în container */
+    position: relative;
+}
+
+.small-number {
+    font-size: 1.6em;
+    color: #a06735;
+    flex-shrink: 0;
+    margin-right: 20px; /* Adaugă distanță între număr și titlu */
+    position: relative; /* Schimbat din absolute în relative */
+}
+
+.poem-title {
+    font-size: 2.5em;
+    color: #a06735;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em; 
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block; 
+            margin-top: 20px;
+            text-decoration: none; 
+            color: #a06735; 
+            font-weight: bold;
+            padding: 10px; 
+            border-radius: 5px; 
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover { 
+            color: white; 
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.5</span>
+        <h2 class="poem-title">Parfumul unei toamne....</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Strofa 1 -->
+    <div class="stanza"> 
+        <p>A mai trecut o toamnă.</p>
+        <p>Și iarăși mă gândesc,</p>
+        <p>Că nu-i moment mai bun</p>
+        <p>În care să iubesc...</p>
+    </div>
+
+    <!-- Strofa 2 -->
+    <div class="stanza">
+        <p>A mai trecut o toamnă.</p>
+        <p>Și frunzele căzând,</p>
+        <p>Sărutându-te adesea</p>
+        <p>Pe obrazul tău plăpând</p>
+    </div>
+
+    <!-- Strofa 3 -->
+    <div class="stanza">
+        <p>În brațe mi te arunci</p>
+        <p>Totul e atât de frumos</p>
+        <p>Și se aude încet atunci</p>
+        <p>Ciripit armonios</p>
+    </div>
+
+    <!-- Strofa 4 -->
+    <div class="stanza">
+        <p>Timpul parcă s-a oprit</p>
+        <p>Mă privești încrezător</p>
+        <p>Sub un tainic chicotit</p>
+        <p>Mă săruți cu foc și dor</p>
+    </div>
+
+    <!-- Strofa 5 -->
+    <div class="stanza">
+        <p>Vântul toamnei bate agale,</p>
+        <p>Păru-ți galben fluturând,</p>
+        <p>Și-ai căzut din sărutare</p>
+        <p>Pe al meu piept, încet, râzând..</p>
+    </div>
+
+    <!-- Strofa 6 -->
+    <div class="stanza">
+        <p>Și-ți vorbesc apăsător</p>
+        <p>Tot ce n-am putut vorbi</p>
+        <p>Tu mă crezi un visător</p>
+        <p>Că eu n-aș putea iubi</p>
+    </div>
+
+    <!-- Strofa 7 -->
+    <div class="stanza">
+        <p>-Și în versuri de te-aș pune,</p>
+        <p>Și poet de-aș vrea să fiu,</p>
+        <p>Nu-s suficient de bune</p>
+        <p>Ca să pot să te descriu</p>
+    </div>
+
+    <!-- Strofa 8 -->
+    <div class="stanza">
+        <p>Însă ziua aceasta apune...</p>
+        <p>Seara vine peste noi</p>
+        <p>Soarele pe față-ți pune</p>
+        <p>Călduroase raze moi</p>
+    </div>
+
+    <!-- Strofa 9 -->
+    <div class="stanza">
+        <p>Vedem luna încet cum crește</p>
+        <p>Dansând lent în fața sorții</p>
+        <p>Iubindu-ne nebunește</p>
+        <p>Până la sfârșitul nopții</p>
+    </div>
+
+    <!-- Strofa 10 -->
+    <div class="stanza">
+        <p>Când ne despărțim privirea</p>
+        <p>Dragostea iar mă condamnă,</p>
+        <p>Să rămân cu amintirea</p>
+        <p>Dulcelui parfum de toamnă...</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.10.'21</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>

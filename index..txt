@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picteză-mi numărul bătăilor inimii...</title>
+    
+    <style>
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: #a06735;
+            margin: 20px auto;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf; 
+            color: #a06735;
+            margin: 0;
+            padding: 0;
+        }
+        .papirus-title {
+            background-image: url('scroll-34606_1280.png'); /* Imaginea din același folder */
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 40px 20px;
+            width: 500px;
+            margin: 20px auto;
+        }
+        .papirus-title h1 {
+            font-size: 2.5em;
+            color: #8b4513;
+            margin: 0;
+            font-family: 'Papyrus', cursive;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: #a06735;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        nav a:hover {
+            color: white;
+            background-color: #a06735;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .poem-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .poem-item {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s ease;
+        }
+        .poem-item:hover {
+            transform: scale(1.02);
+        }
+        .poem-number {
+            margin-right: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            color: #a06735;
+            width: 30px;
+            text-align: right;
+        }
+        .poem-title {
+            font-weight: bold;
+            color: #a06735;
+            text-decoration: none;
+            font-size: 20px;
+            text-align: center;
+            flex: 1;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .poem-title:hover {
+            transform: scale(1.02);
+        }
+        .footer {
+            background-color: #f6edbf;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Titlul principal în stil papirus -->
+<div class="papirus-title">
+    <h1>Picteaza-mi numarul batailor inimii...</h1>
+</div>
+<hr>
+<nav>
+    <a href="despreautor.html">Despre autor</a>
+    <a href="#poezii">Poezii</a>
+</nav>
+
+<div class="container">
+    <section id="poezii">
+        <h2>Poezii</h2>
+        <div class="poem-list">
+            <div class="poem-item">
+                <span class="poem-number">.1</span>
+                <a href="scriu.1.html" class="poem-title">Scriu...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.2</span>
+                <a href="sideti-asfi.2.html" class="poem-title">Și de ți-aș fi...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.3</span>
+                <a href="dragosteinplic.3.html" class="poem-title">Dragoste în plic</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.4</span>
+                <a href="atat.4.html" class="poem-title">Atât...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.5</span>
+                <a href="parfumuluneitoamne.5.html" class="poem-title">Parfumul unei toamne...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.6</span>
+                <a href="omuldintren.6.html" class="poem-title">Omul din tren...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.7</span>
+                <a href="cine-iomuldinoglinda.7.html" class="poem-title">Cine-i omul din oglindă?</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.8</span>
+                <a href="leac.8.html" class="poem-title">Leac...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.9</span>
+                <a href="dacaaistii.9.html" class="poem-title">Dacă ai știi...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.10</span>
+                <a href="trandafir.10.html" class="poem-title">Trandafir</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.11</span>
+                <a href="poem.11.html" class="poem-title">Poem</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.12</span>
+                <a href="multamaitrecut.12.html" class="poem-title">Mult a mai trecut...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.13</span>
+                <a href="iubim.13.html" class="poem-title">Iubim...</a>
+            </div>
+            <div class="poem-item">
+                <span class="poem-number">.14</span>
+                <a href="amtrecutmereupeaici.14.html" class="poem-title">Am trecut mereu pe aici</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer class="footer">
+    &copy; 2024 Picteaza-mi numarul batailor inimii. Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>

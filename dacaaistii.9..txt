@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.9 Dacă ai știi... </title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: #f6edbf;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .poem-content {
+            max-width: 700px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .title-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .small-number {
+            font-size: 1.6em;
+            color: #a06735;
+            flex-shrink: 0;
+            position: absolute;
+            left: 0;
+            margin-right: 20px; /* Distanță între numărul mic și titlu */
+        }
+        .poem-title {
+            font-size: 2.5em;
+            color: #a06735;
+            margin: 0 auto;
+            padding-bottom: 10px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .author {
+            font-size: 1.2em;
+            color: #a06735;
+            text-align: right;
+            display: block;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .stanza {
+            margin-bottom: 15px;
+        }
+        .stanza p {
+            font-size: 1.2em;
+            line-height: 1.4;
+            color: #555;
+            text-align: left;
+            margin: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #a06735;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+        .back-link:hover {
+            color: white;
+            background-color: #a06735;
+        }
+    </style>
+</head>
+<body>
+
+<div class="poem-content">
+    <div class="title-container">
+        <span class="small-number">.9</span>
+        <h2 class="poem-title">Dacă ai știi...</h2>
+    </div>
+    <span class="author">de Filip Valentin</span>
+    
+    <!-- Strofa 1 -->
+    <div class="stanza">
+        <p>Stătea într-o zi pe bancă,</p>
+        <p>Frumoasă!</p>
+        <p>Doamne, ce ochi avea, ce buze,</p>
+        <p>Ce tot!</p>
+        <p>Eu aș iubi-o, dar nu-s sigur</p>
+        <p>După cât ar merita...</p>
+    </div>
+
+    <!-- Strofa 2 -->
+    <div class="stanza">
+        <p>Am prefăcut sentimente în cuvinte,</p>
+        <p>Vers cu vers</p>
+        <p>Tu ia-le și aruncă-le în nesfârșita</p>
+        <p>Mare.</p>
+        <p>Sau dacă nu, tu fă-le stele</p>
+        <p>În univers.</p>
+        <p>Ascunse, iubitoare...</p>
+    </div>
+
+    <!-- Strofa 3 -->
+    <div class="stanza">
+        <p>Într-o notă personală...</p>
+        <p>Privit de ochi,</p>
+        <p>Ce nu știau a privi</p>
+        <p>Iubit de-un suflet,</p>
+        <p>Ce nu știa a iubi.</p>
+        <p>Și nici nu o va face</p>
+    </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp20.01.'22</p>
+</div>
+
+<a href="index.html" class="back-link">Înapoi la lista de poezii</a>
+
+</body>
+</html>
